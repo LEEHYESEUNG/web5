@@ -1,0 +1,19 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #000;
+    letter-spacing: .33px;
+    font-size: 15px;
+    &.overflow{ 
+      overflow: hidden;
+    }
+}
+.wrapper{ display: flex; flex-direction: column; position: relative; height: 100%; width: 100%;}
+.blind{
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
